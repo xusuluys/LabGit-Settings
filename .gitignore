@@ -1,1 +1,30 @@
+# Каталоги сборки
+build/
+bin/
+obj/
 
+# Временные файлы
+temp/
+*.tmp
+*.temp
+
+# Файлы журналов
+logs/
+*.log
+
+# Локальные настройки
+.env
+appsettings.Local.json
+
+# Файлы операционной системы
+Thumbs.db
+.DS_Store
+
+# Файлы среды разработки
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Результаты тестирования
+TestResults/
