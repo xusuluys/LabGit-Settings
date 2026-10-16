@@ -1,1 +1,13 @@
+# Автоматическое определение текстовых файлов
+* text=auto
 
+# Настройки текстовых файлов
+*.cs text eol=crlf
+*.md text eol=lf
+*.txt text eol=lf
+
+# Бинарные файлы
+*.png binary
+*.jpg binary
+*.pdf binary
+*.zip binary
